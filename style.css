@@ -109,7 +109,7 @@ margin-left: 100px;
 }
 /* latest deal section */
 .deal-section{
-    margin-top: 250px;
+    margin-top: 150px;
 text-align: center;   
 }
 .deal-section p{
@@ -123,14 +123,15 @@ text-align: center;
        }
     .img-color{color: rgb(233, 90, 8);}
     .deal-img-sec{
-         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+         display: flex;
+         justify-content: center;
         gap: 10px;
         margin-right: 100px;
         margin-top: 50px;
         border-radius: 30px;
        
     }
+    
     .Zabo{
         background-image: url(./assets/deal-zabo.png);
         background-repeat: no-repeat;
@@ -246,8 +247,7 @@ color: rgb(107, 114, 128);
 }
 
 .deal-img-sec{
-         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
         gap: 10px;
         margin-left: 100px;
         margin-top: 50px;
