@@ -82,6 +82,7 @@ text-align: center;
     width: 300px;
     height: 200px;
     margin-bottom: 70px;
+    
 }
 .para{
     font-size: 22px;
@@ -108,7 +109,7 @@ margin-left: 100px;
 }
 /* latest deal section */
 .deal-section{
-    margin-top: 150px;
+    margin-top: 250px;
 text-align: center;   
 }
 .deal-section p{
@@ -125,7 +126,7 @@ text-align: center;
          display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
-        margin-left: 100px;
+        margin-right: 100px;
         margin-top: 50px;
         border-radius: 30px;
        
@@ -133,7 +134,7 @@ text-align: center;
     .Zabo{
         background-image: url(./assets/deal-zabo.png);
         background-repeat: no-repeat;
-        width: 900px;
+        width: 600px;
         height: 600px;
         border-radius: 30px;
     }
@@ -167,14 +168,47 @@ text-align: center;
         width: 100%;
         height: 400px;
         background-size: cover;
+        margin-top: 30px;
+    }
+    .banner-last h1{
+        /* border: 1px solid; */
+        color: whitesmoke;
+    text-align: center;
+    margin-top: 200px;
+        
+
+    }
+    .input-button{
+        text-align: center;
+    }
+    .btn-primary{
+       background-color: rgb(233, 90, 8);
+    }
+
+    .footer-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 120px;
     }
 .navigate ul li{
 list-style: none;
 padding: 5px;
+color: rgb(107, 114, 128);
 }
 .about-us ul li{
 list-style: none;
-padding: 5px;
+padding: 10px;
+color: rgb(107, 114, 128);
+}
+.icon{
+    padding: 10px;
+}
+.logo p{
+    width: 200px;
+    height: 60px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
     
@@ -182,7 +216,7 @@ padding: 5px;
     
    
 
-/* @media  (max-width:576px) {
+@media  (max-width:576px) {
     
     nav ul li {
         display: none ;
@@ -200,8 +234,33 @@ padding: 5px;
     flex-direction: column;
     
 }
+.para{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
 .trust-badge{
     display: none;
 }
+
+.deal-img-sec{
+         display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-left: 100px;
+        margin-top: 50px;
+        border-radius: 30px;
  
-} */
+}
+.deal-section{
+    margin-top: 100px;
+text-align: center;   
+
+
+}
+.footer-section{
+    flex-direction: column;}
+
+}
