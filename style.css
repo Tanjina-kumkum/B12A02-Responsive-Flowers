@@ -154,13 +154,12 @@ text-align: center;
         border-radius: 30px;
     }
     
-     h1, h3{
+     .deal-img-sec h1, h3{
         color: white;
         font-weight: 700;
         font-size: 1.25rem;
        text-align: center;
-        align-items: center;
-        justify-content: center;
+        
         padding-top: 50px;
         line-height: 2px;
        
