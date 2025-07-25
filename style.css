@@ -77,6 +77,60 @@ text-align: center;
     margin: 10px 0px;
     
 }
+/* nursery-section */
+.flower-descriptive{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 70px;
+}
+.para{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.nursey-img{
+   background-color: rgba(103, 171, 234, 0.24)
+rgba(233, 90, 8, 0.6);
+}
+.nursery-section{
+    display: flex;
+    justify-content: center;
+  
+    gap: 40px;
+    margin-top: 50px;
+}
+.trust-badge{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    /* border: 1px solid; */
+margin-left: 100px;
+    margin-top: -100px;
+}
+/* latest deal section */
+.deal-section{
+    margin-top: 40px;
+text-align: center;   
+}
+.deal-section p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 700px;
+    height: 50px;}
+    .img-color{color: rgb(233, 90, 8);}
+    .deal-img-sec{
+        display: grid;
+      grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-left: 100px;
+        margin-top: 50px;
+       
+    }
+    .img-2{
+        border-radius: 10px;
+    }
+   
 
 @media  (max-width:576px) {
     
@@ -92,5 +146,11 @@ text-align: center;
      font-size: 22px;
      width: 100%;
    }
-   
+   .nursery-section{
+    flex-direction: column;
+    
+}
+.trust-badge{
+    display: none;
+}
 }
