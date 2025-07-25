@@ -42,7 +42,27 @@ height: 200px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: 400px;
     font-size: 22px;
+    margin-left: 10px;
 }
 .flower-color{color: rgb(233, 90, 8);}
-
+/* plants section */
+.title-plants{
+text-align: center;   
+}
+.title-plants p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 800px;
+    height: 54px;
     
+}
+
+@media  (max-width:576px) {
+    
+    nav ul li {
+        display: none !important;
+    }
+    .banner-part{flex-direction: column-reverse;}
+}
