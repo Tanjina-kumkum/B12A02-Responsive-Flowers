@@ -108,7 +108,7 @@ margin-left: 100px;
 }
 /* latest deal section */
 .deal-section{
-    margin-top: 40px;
+    margin-top: 150px;
 text-align: center;   
 }
 .deal-section p{
@@ -117,25 +117,75 @@ text-align: center;
     font-weight: 400;
     margin: 0 auto;
     width: 700px;
-    height: 50px;}
+    height: 50px;
+    
+       }
     .img-color{color: rgb(233, 90, 8);}
     .deal-img-sec{
-        display: grid;
-      grid-template-columns: repeat(3, 1fr);
+         display: grid;
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         margin-left: 100px;
         margin-top: 50px;
+        border-radius: 30px;
        
     }
-    .img-2{
-        border-radius: 10px;
+    .Zabo{
+        background-image: url(./assets/deal-zabo.png);
+        background-repeat: no-repeat;
+        width: 900px;
+        height: 600px;
+        border-radius: 30px;
     }
+    .Ana{
+        background-image: url(./assets/deal-ana.png);
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    .bloom{
+        background-image: url(./assets/deal-bloom.png);
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 200px;
+        border-radius: 30px;
+    }
+    
+    .deal-img-sec h1, h3{
+        color: white;
+        font-weight: 700;
+        font-size: 1.25rem;
+       text-align: center;
+        align-items: center;
+      
+       
+    }
+    .banner-last{
+        background-image: url(./assets/news-letter-bg.png);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+.navigate ul li{
+list-style: none;
+padding: 5px;
+}
+.about-us ul li{
+list-style: none;
+padding: 5px;
+}
+
+    
+
+    
    
 
-@media  (max-width:576px) {
+/* @media  (max-width:576px) {
     
     nav ul li {
-        display: none !important;
+        display: none ;
     }
     .banner-part{flex-direction: column-reverse;}
    .flower-cart-section{
@@ -153,4 +203,5 @@ text-align: center;
 .trust-badge{
     display: none;
 }
-}
+ 
+} */
